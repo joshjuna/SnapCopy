@@ -1,6 +1,7 @@
 # Build output
 SnapCopy.app/
 *.dSYM/
+*.zip
 
 # Debug artifacts
 snapcopy-debug.log
