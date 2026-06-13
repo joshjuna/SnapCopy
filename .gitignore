@@ -1,0 +1,8 @@
+# Build output
+SnapCopy.app/
+*.dSYM/
+
+# Debug artifacts
+snapcopy-debug.log
+snapcopy-last.png
+.DS_Store
