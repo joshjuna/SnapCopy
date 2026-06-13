@@ -16,7 +16,15 @@ Vision framework — no network, no dependencies) and copies the result, showing
 - On-device recognition via the Vision framework
 - "Copied" notification with a preview of the result
 
-## Build
+## Install (no build required)
+
+1. Download `SnapCopy.zip` from the [latest release](https://github.com/joshjuna/SnapCopy/releases/latest) and unzip it.
+2. Move `SnapCopy.app` to `/Applications`.
+3. **First launch:** right-click the app › **Open** › **Open** (it's not notarized, so
+   this clears Gatekeeper once; afterwards it opens normally).
+4. Grant **Screen Recording** when prompted (see [Permissions](#permissions)).
+
+## Build from source
 
 ```sh
 ./build.sh
